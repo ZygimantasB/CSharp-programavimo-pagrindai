@@ -1,0 +1,6 @@
+C:\Users\Zygimantas\source\repos\w3resource Basic\w3resource Basic\bin\Debug\w3resource Basic.exe.config
+C:\Users\Zygimantas\source\repos\w3resource Basic\w3resource Basic\bin\Debug\w3resource Basic.exe
+C:\Users\Zygimantas\source\repos\w3resource Basic\w3resource Basic\bin\Debug\w3resource Basic.pdb
+C:\Users\Zygimantas\source\repos\w3resource Basic\w3resource Basic\obj\Debug\w3resource Basic.csproj.CoreCompileInputs.cache
+C:\Users\Zygimantas\source\repos\w3resource Basic\w3resource Basic\obj\Debug\w3resource Basic.exe
+C:\Users\Zygimantas\source\repos\w3resource Basic\w3resource Basic\obj\Debug\w3resource Basic.pdb
