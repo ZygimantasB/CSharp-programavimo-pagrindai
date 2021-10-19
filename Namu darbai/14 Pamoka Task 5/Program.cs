@@ -13,8 +13,6 @@ namespace _14_Pamoka_Task_5
         {
             string filePath = @"G:\My Drive\C Sharp mokymai video\Paskaitos video\14 Pamoka\Failu sukurimas\test.txt";
 
-            //string[] lines = File.ReadAllLines(filePath);
-
             List<string> lines = new List<string>();
             lines = File.ReadAllLines(filePath).ToList();
 
@@ -26,7 +24,7 @@ namespace _14_Pamoka_Task_5
             lines.Add("Siandien bus 14 paskaita");
             File.WriteAllLines(filePath, lines);
 
-            if (Directory.Exists(filePath) == false)
+            if (File.Exists(filePath) == true)
             {
                 Console.WriteLine("Viskas gerai, faila pavyko irasyti i nurodyta direktorija");
             }
@@ -34,10 +32,7 @@ namespace _14_Pamoka_Task_5
             {
                 Console.WriteLine("Tokios direktorijos nera failo irasyti i direktorija nepavyko");
             }
-
-            File.ReadAllLines(filePath);
-
-                Console.ReadLine();
+            Console.ReadLine();
         }
     }
 }

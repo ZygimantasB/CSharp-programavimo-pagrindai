@@ -70,5 +70,17 @@ namespace _13_Pamoka_Task_2_pakartojimas
 
             Console.ReadLine();
         }
+
+        public void ArVisiVeiksmai_yra_teigiami(int skaicius1, int skaicius2, int skaicius3, int skaicius4)
+        {
+            if (skaicius1 > 0 && skaicius2 > 0 && skaicius3 > 0 && skaicius4 > 0)
+            {
+                Console.WriteLine(true);
+            }
+            else
+            {
+                Console.WriteLine(false);
+            }
+        }
     }
 }

@@ -9,7 +9,7 @@ namespace _13_Pamoka_Task_3_pakartojimas
     class Mano_sarasas
     {
         public List<int> Mano_skaiciai;
-        private int Skaicius;
+        public int Skaicius;
 
         public Mano_sarasas(int skaicius)
         {

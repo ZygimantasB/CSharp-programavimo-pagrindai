@@ -10,7 +10,6 @@ namespace _13_Pamoka_Task_4_bandymas_2
     {
         static void Main(string[] args)
         {
-
             bool ar_nori_kartoti = true;
 
             while (ar_nori_kartoti)
@@ -20,23 +19,17 @@ namespace _13_Pamoka_Task_4_bandymas_2
                 Console.WriteLine("Irasyktie zodi 1");
                 string zodis1 = Console.ReadLine();
 
-                Console.WriteLine("Irasyktie zodi 2");
-                string zodis2 = Console.ReadLine();
+                WordDatabase mano_sarasas = new WordDatabase(zodis1);
 
-                Skaiciavimai mano_sarasiukas = new Skaiciavimai(zodis1, zodis2, sarasas_zodis);
+                //Console.WriteLine("Irasyktie zodi 2");
+                //string zodis2 = Console.ReadLine();
 
-                mano_sarasiukas.Metodas_sarasas();
+                //Skaiciavimai mano_sarasiukas = new Skaiciavimai(zodis1, zodis2, sarasas_zodis);
 
-                //if (zodis1 == zodis2)
-                //{
-                //    Console.WriteLine($"Zodis - {zodis1} - kartojasi (dublicate)");
-                //}
-                //else if (zodis1 != zodis2)
-                //{
-                //    Console.WriteLine($"Zodis - {zodis1} - yra isaugotas");
-                //    sarasas_zodis.Add(zodis);
-                //    sarasas_zodis.Add(zodis1);
-                //}
+                mano_sarasas.BandytiPridetiZodi(zodis1);
+
+                mano_sarasas.VisiZodziai(zodis1);
+
             }
 
             Console.ReadLine();

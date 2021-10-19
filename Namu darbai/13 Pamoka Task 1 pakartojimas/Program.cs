@@ -17,7 +17,18 @@ namespace _13_Pamoka_Task_1_pakartojimas
 
             var pateikimas = objektas.AmziausIvertinimas(asmens_amzius);
 
-            Console.WriteLine(pateikimas);
+            switch(pateikimas)
+            {
+                case Galimybes.nieko:
+                    Console.WriteLine("Asmuo yra nepilnametis, jis nei gerti, nei vairuoti negali");
+                    break;
+                case Galimybes.vairuoti:
+                    Console.WriteLine("Asmuo gali vairuoti tik automobili, alkoholio vartoti negali");
+                    break;
+                case Galimybes.vairuotiGerti:
+                    Console.WriteLine("Asmuo gali vartoti alkoholi, bei vairuoti transporto priemone");
+                    break;
+            }
 
             Console.ReadKey();
         }
